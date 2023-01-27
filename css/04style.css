@@ -1,0 +1,17 @@
+/* external css (외부 css) : css파일에 스타일 코드 작성  */
+/* css 주석 */
+
+h1 {
+    color: rgb(0, 140, 255);
+    background-color: rgba(172, 255, 47, 0.4);
+}
+
+h2 {
+    color: gold;
+    background-color: ghostwhite;
+}
+
+p {
+    color: skyblue;
+    background-color: #000;
+}
