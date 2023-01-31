@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+<body>
+    <script>
+        const int = 123;
+        const name = prompt("이름");
+        document.write(`${name}` + "<br>");
+        document.write("${name}" + "<br>");
+        console.log(`${name}`);
+        document.write(typeof(name) + "<br>");
+        document.write("-----------------------------------" + "<br>");
+        
+        if(int === name) {
+            document.write("dd");
+        } else {
+            document.write("ss");
+        }
+        document.write("<br>");
+
+        for(let i = 0; i < name.length; i++) {
+            for(let j = 0; j < i; j++) {
+            document.write("*")
+            }
+        document.write("<br>");
+        }
+    </script>
+</body>
+</html>
