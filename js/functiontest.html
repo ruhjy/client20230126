@@ -81,6 +81,32 @@
 
         console.log(cal(increase, 9));
         console.log(cal(decrease, 11));
+        console.log("--------------------------");
+
+
+        // function sayHello() {
+        //     return "Hello, ";
+        // }
+        // function greeting(helloMessage, name) {
+        //     console.log(helloMessage() + name);
+        // }
+        // // Pass `sayHello` as an argument to `greeting` function
+        // greeting(sayHello, "JavaScript!");
+        // // Hello, JavaScript!
+
+        function sayHello() {
+            return () => {
+                console.log("Hello!");
+            };
+        }
+
+        sayHello(function(hello) {
+            console.log("???");
+        });
+        
+        
+        sayHello();
+
 
     </script>
 </body>
