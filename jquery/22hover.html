@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        Lorem.
+    </h1>
+    <p style="display: none;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At minima hic consequuntur perferendis officia esse ex eveniet deleniti iusto! Nobis, molestiae. Culpa omnis explicabo neque vitae, eos accusamus recusandae voluptates.
+    </p>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        // // h1요소에 마우스 포인터가 들어가면 p 요소가 보이도록
+        // $("h1").mouseenter(function () {
+        //     $("p").show();
+        // });
+
+        // // h1요소에 마우스 포인터가 나가면 p 요소가 숨겨지도록
+        // $("h1").mouseleave(function () {
+        //     $("p").hide();
+        // });
+
+        $("h1").hover(function () {
+            $("p").slideDown(500);
+        }, function() {
+            $("p").slideUp(500);
+        });
+
+
+
+    </script>
+</body>
+
+</html>
