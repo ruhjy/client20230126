@@ -28,6 +28,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
 
         function bigH1() {
@@ -35,15 +36,15 @@
                 width: "300px",
                 height: "200px",
                 fontSize: "96px",
-                // backgroundColor: "gray",
+                backgroundColor: "gray",  // cdnjs에서 jqueryui 추가하니까 적용됨
                 // color: "red",
             }, 3000,
                 function () {
                     $("#text").show();
                     // console.log("애니메이션 효과 끝남");
                 });
-            $("h1").css("background-color", "yellow");
-            $("h1").css("color", "#0d6efd");
+            // $("h1").css("background-color", "yellow");  
+            // $("h1").css("color", "#0d6efd");
         }
 
 
